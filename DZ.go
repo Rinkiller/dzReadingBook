@@ -196,7 +196,6 @@ func nullListDB() {
 
 func main() {
 	if readBaseFromFile() != true {
-		fmt.Println("DEBUGING!!!!!")
 		nullListDB()
 		saveBaseInFile()
 	}
